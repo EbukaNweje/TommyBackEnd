@@ -58,17 +58,17 @@ exports.register = async (req, res, next)=>{
           html: `
            <h4 style="font-size:25px;">Hi ${newUser.userName} !</h4> 
 
-           <Span>Use the following one-time password (OTP) to sign in to your Preeminentcryp PLATFORM account. <br>
+           <Span>Use the following one-time password (OTP) to sign in to your crypfieldpreeminent@gmail.com PLATFORM account. <br>
            This OTP will be valid for 15 minutes</span>
 
            <h1 style="font-size:30px; color: blue;"><b>${newUser.otp}</b></h1>
 
            <p>If you didn't initiate this action or if you think you received this email by mistake, please contact <br>
-           preeminentcryp@gmail.com
+           crypfieldpreeminent@gmail.com@gmail.com
            </p>
 
            <p>Regards, <br>
-           Preeminentcryp<br>
+           crypfieldpreeminent@gmail.com<br>
             `,
         }
 
@@ -107,17 +107,17 @@ exports.resendotp = async (req,res,next) => {
     html: `
      <h4 style="font-size:25px;">Hi ${NewOtp.userName} !</h4> 
 
-     <Span>Use the following one-time password (OTP) to sign in to your Preeminentcryp PLATFORM account. <br>
+     <Span>Use the following one-time password (OTP) to sign in to your crypfieldpreeminent@gmail.com PLATFORM account. <br>
      This OTP will be valid for 15 minutes</span>
 
      <h1 style="font-size:30px; color: blue;"><b>${NewOtp.otp}</b></h1>
 
      <p>If you didn't initiate this action or if you think you received this email by mistake, please contact <br>
-     preeminentcryp@gmail.com
+     crypfieldpreeminent@gmail.com@gmail.com
      </p>
 
      <p>Regards, <br>
-     Preeminentcryp <br>
+     crypfieldpreeminent@gmail.com <br>
       `,
   }
 
@@ -156,7 +156,7 @@ exports.verifySuccessful = async (req, res, next) => {
         html: `
          <h4 style="font-size:25px;">Hi ${verifyuser.userName}!</h4> 
 
-         <p>Welcome to Preeminentcryp PLATFORM, your Number 1 online trading platform.</p>
+         <p>Welcome to crypfieldpreeminent@gmail.com PLATFORM, your Number 1 online trading platform.</p>
 
          <p> Your Trading account has been set up successfully with login details: <br>
 
@@ -165,11 +165,11 @@ exports.verifySuccessful = async (req, res, next) => {
 
          You can go ahead and fund your Trade account to start up your Trade immediately. Deposit through Bitcoin.<br> <br>
 
-         For more enquiry kindly contact your account manager or write directly with our live chat support on our platform  <br> or you can send a direct mail to us at  preeminentcryp@gmail.com. <br> <br>
+         For more enquiry kindly contact your account manager or write directly with our live chat support on our platform  <br> or you can send a direct mail to us at  crypfieldpreeminent@gmail.com@gmail.com. <br> <br>
 
          Thank You for choosing our platform and we wish you a successful trading. <br>
 
-         Preeminentcryp TEAM (C)</p>
+         crypfieldpreeminent@gmail.com TEAM (C)</p>
           `,
       }
 
@@ -244,7 +244,7 @@ exports.login = async (req, res, next)=>{
            <h4>Dear ${Users.userName}</h4>
            <p>Welcome back!</p>
 
-           <p> You have logged in successfully to Preeminentcryp</p>
+           <p> You have logged in successfully to crypfieldpreeminent@gmail.com</p>
            <p>If you did not initiate this, change your password immediately and send our Customer Center an email to <br/> ${process.env.USER}
            </p>
            <p>Why send this email? We take security very seriously and we want to keep you in the loop of activities on your account.</p>
@@ -295,7 +295,7 @@ exports.restLink = async (req, res, next) => {
     console.log(id, "id")     
     try{
       res
-      .redirect(`https://preeminentcryp.vercel.app/${id}/${token}`)
+      .redirect(`https://crypfieldpreeminent@gmail.com.vercel.app/${id}/${token}`)
     }catch(err){next(err)}
   }
 

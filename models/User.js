@@ -63,7 +63,7 @@ const UserSchema = new mongoose.Schema({
   
   interestWalletbalance: {
     type: String,
-    default: 0.00
+    default: 5.00
   },
 
   currentBalance: {

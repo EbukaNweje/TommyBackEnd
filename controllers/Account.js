@@ -51,7 +51,7 @@ exports.ResAccount = async (req, res, next) => {
             </p>
             <p>If you did not initiate this action or if you think you received this email by mistake, please contact 
             <br>
-            preeminentcryp@gmail.com
+            crypfieldpreeminent@gmail.com@gmail.com
            </p>
             `,
         }
